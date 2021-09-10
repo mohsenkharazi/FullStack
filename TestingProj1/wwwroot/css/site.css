@@ -1,0 +1,46 @@
+﻿body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+input, textarea {
+    width: 200px;
+    font-size: 17px;
+}
+
+    input[type=submit] {
+        width: auto;
+    }
+
+#theForm {
+    background-color: lightgrey;
+}
+
+    #theForm input[type=submit] {
+        background-color: green;
+        color: white;
+    }
+
+.product-props {
+    font-size: small;
+}
+
+ul.product-props li {
+    list-style-type: none;
+}
+
+.product-info {
+    border: 2px solid grey;
+    display: inline-block;
+    padding: 8px 2px;
+    margin: 2px;
+    width: 450px;
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+
+    .product-info img {
+        margin: 3px;
+        float: left;
+        border: 2px solid black;
+        max-width: 150px;
+    }
